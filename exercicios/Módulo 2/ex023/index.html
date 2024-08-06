@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body {
+            height: 700px;
+            background-image: linear-gradient(to bottom, blue, rgb(23, 23, 255), rgb(48, 48, 255));
+            margin: 0px;
+        }
+
+        nav {
+            background-color: rgb(0, 0, 68);
+            padding: 3px;
+        }
+
+        nav > a {
+            color: bisque;
+            margin-right: 30px;
+        }
+
+        header {
+            background-image: linear-gradient(to right, black, rgb(22, 23, 32));
+            color: bisque;
+            padding: 10px;
+            padding-left: 30px;    
+        }
+
+        main {
+            background-color: bisque;
+            margin-bottom: 20px;
+        }
+
+        article {
+            background-color: lightgrey;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            padding: 30px;
+            padding-left: 20px;
+            margin: 5px;
+        }
+
+        article > aside {
+            color: rgb(25, 44, 44);
+            margin-bottom: 100px;
+        }
+
+        footer {
+            margin: 0;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+            <a href="">Link</a>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <section id="noticias">
+                <article>
+                    
+                    <h2>Noticias sobre o timão</h2>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Numquam sint illum maiores accusamus saepe odit provident sed labore? Explicabo facere numquam inventore fugit nihil qui, odit facilis sit quae error!</h2>
+
+                    <aside>Artigo Escrito por Doutor Socrates</aside>
+
+                </article>
+            </section>
+        </section>
+    </main>
+
+    <footer>
+        Desenvolvido por Guilherme
+    </footer>
+</body>
+</html>

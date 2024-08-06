@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(167, 167, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 30px;
+}
+
+
+
+h1 {
+    color: rgb(0, 0, 158);
+}
+
+h1#principal {
+    text-align: center;
+    background-color: blue;
+    color: bisque;
+}
+
+h2 {
+    color: rgb(83, 100, 248);
+}
+
+.basico{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.intermediario{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.avancado{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.destaque{
+    background-color: black;
+}
